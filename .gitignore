@@ -54,7 +54,7 @@ datasets/
 *.zip
 
 # Model and weight files
-weights/
+
 *.h5
 *.ckpt
 
