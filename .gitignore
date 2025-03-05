@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Logs and debugging
+logs/
+*.log
+*.out
+*.err
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Torch checkpoints
+checkpoints/
+*.pth
+*.pt
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.swn
+
+# Dataset files
+data/
+datasets/
+*.csv
+*.json
+*.h5
+*.hdf5
+*.tar.gz
+*.zip
+
+# Model and weight files
+weights/
+*.h5
+*.ckpt
+
+# TensorBoard logs
+runs/
+events.out.tfevents.*
+
+# Ignore test images and results
+test_images/
+output/
+
+# Ignore cache and tmp
+__pycache__/
+.cache/
+*.bak
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore pyenv
+.python-version
+
+# Ignore Jupyter Notebook outputs
+*.ipynb_checkpoints
+
+# Ignore MyPy cache
+.mypy_cache/
+
+# Ignore profiling data
+*.prof
+
+# Ignore all files in data/raw_data and data/split_data
+data/raw_data/
+data/split_data/
+Lib/
+share/
+
